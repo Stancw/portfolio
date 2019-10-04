@@ -1,1 +1,2 @@
-*.rb linguist-language=Python
+* linguist-vendored
+*.python linguis-vendored=false
