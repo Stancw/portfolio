@@ -95,14 +95,15 @@ body {
   }
   
   aside {
-    
+    border-radius: 60px;
+  
     flex: 1;
     height: 760px;
     padding: 20px;
     margin-top: 100px;
     font-size: 10px;
     float: right;
-    background:#c22a71;
+    background:#f2faff;
   }
 
 

@@ -1,5 +1,5 @@
-{% load static %}
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +9,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/style.css'%}">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "css/blog.css" %}">
+
 
 
     <!-- icons for footer -->
@@ -24,16 +24,16 @@
 
 <header>Сергей Каневский</header>
 
-<nav>
+<nav id="nav">
     <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link active" href="#nav">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#footer">About me</a>
+          <a class="nav-link" href="#section">About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Social media</a>
+          <a class="nav-link" href="#footer">Social media</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">in thought</a>
@@ -56,11 +56,11 @@
                 <li>After school entered to the National Aviation University in Kyiv where in 2018 completed the full course and obtained qualification:Bachelor Degree. Having specialized in information and communications systems security.</li>   
                 <li>From the end of 2018 to today i earnestly acquire skills at web development</li>
             
-            <section>
+            <section id="section">
 
             <h2>Wait,wait,don't leave this page. All technical info about me below.</h2>
 
-                {% load static %}
+                
                 <div class="container-fluid">
                     <div class="container">
                       <div class="row text-center justify-content-center">
@@ -114,7 +114,7 @@
        
       </main>
 
-      <footer>
+      <footer id="footer">
   
             <div class="container mt- mb-2 text-center text-md-left" >
               <div class="row mt-3">
