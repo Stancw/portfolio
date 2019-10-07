@@ -30,7 +30,7 @@ body {
     border-radius: 60px;
   }
   
-  
+
   /* || main layout */
   
   main {
@@ -49,9 +49,7 @@ body {
     margin-top: 100px;
   }
   
-  article, section {
-    flex: 4;
-  }
+  
   
   aside {
     border-radius: 60px;
@@ -71,6 +69,7 @@ nav{
 
 section{
     margin-top:100px;
+    flex: 4;
 }
 
 
